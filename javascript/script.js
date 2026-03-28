@@ -7,3 +7,21 @@ console.log("Fruits list:");
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+function showFood(category) {
+    console.log("Food category:", category);
+}
+
+
+showFood("Fruits");
+showFood("Vegetables");
+
+console.log("Healthy foods:");
+
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i] !== "banana") {  
+        console.log(fruits[i]);
+    }
+}
+
+
