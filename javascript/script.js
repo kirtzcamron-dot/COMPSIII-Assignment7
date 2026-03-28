@@ -24,4 +24,19 @@ for (let i = 0; i < fruits.length; i++) {
     }
 }
 
+if (fruits.length > vegetables.length) {
+    console.log("More fruits than vegetables");
+} else if (fruits.length < vegetables.length) {
+    console.log("More vegetables than fruits");
+} else {
+    console.log("Same number of fruits and vegetables");
+}
 
+let searchItem = "pizza";
+
+if (junkFood.includes(searchItem)) {
+    console.log(searchItem + " is in the junk food list");
+} else {
+    console.log(searchItem + " is not in the list");
+}
+✅ What This
